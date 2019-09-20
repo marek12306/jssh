@@ -1,0 +1,6 @@
+clear
+ver
+seteval nodejsver process.version
+echo node.js version: {nodejsver}
+seteval today new Date();
+echo Today is {today} {newline}
