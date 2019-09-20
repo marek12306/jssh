@@ -29,6 +29,6 @@ module.exports.execute = (cwd, args) => {
 };
 
 module.exports.description =
-`Pobiera różne dane z internetu.
-Konsola: wwwget print <url>
-Zmienna: wwwget set <zmienna> <url>`;
+`Downloads content from internet.
+Console: wwwget print <url>
+Variable: wwwget set <zmienna> <url>`;
