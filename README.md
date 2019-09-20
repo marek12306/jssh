@@ -1,0 +1,3 @@
+jssh
+==============
+Simple shell written in JavaScript (node.js). Nothing special...
