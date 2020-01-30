@@ -5,8 +5,8 @@ module.exports.execute = (cwd, args, commands, cd) => {
     return new Promise((reso,rej) => {
         cwd = resolve(cwd, args.join(" "));
 
-if (!fs.existsSync(String(cwd))){
-    fs.mkdirSync(String(cwd));
+if (!fs.existsSync(cwd)){
+    fs.mkdirSync(cwd);
     return reso();
 } else {
     return rej("Folder " + cwd + " exists.");
