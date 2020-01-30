@@ -9,7 +9,7 @@ if (!fs.existsSync(cwd)){
     fs.mkdirSync(cwd);
     return reso();
 } else {
-    return rej('Folder ' + cwd + ' exists.');
+    return rej("Folder " + cwd + " exists.");
 }
     });
 };
