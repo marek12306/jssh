@@ -12,7 +12,7 @@ if (!fs.existsSync(cwd)){
     return rej('Folder ' + cwd + ' exists.');
 }
     });
-}
+};
 
 module.exports.description = 
 `Creates folder
